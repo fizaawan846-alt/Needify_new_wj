@@ -1,0 +1,26 @@
+/* Dark mode overrides */
+:root[data-theme="dark"] {
+    --purple: #9b71e0;
+    --purple-dark: #c0a0ff;
+    --lavender: #2c2a4d;
+    --pink: #ffbedd;
+    --cream: #1e1e2f;
+    --ink: #f0f0f0;
+    --muted: #bbbbbb;
+    --border: #444455;
+    --green: #5cd68d;
+    --red: #ff6b81;
+    background: #121212;
+    color: var(--ink);
+}
+
+body[data-theme="dark"] {
+    background: #121212;
+    color: var(--ink);
+}
+
+/* Adjust components for dark mode */
+.nav-links a {color: #c0c0c0;}
+.nav-links a.active, .nav-links a:hover {background: var(--lavender); color: var(--purple-dark);}
+.flash.success {background: var(--green);}
+.flash.error {background: var(--red);}

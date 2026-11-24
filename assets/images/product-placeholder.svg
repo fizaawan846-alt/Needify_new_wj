@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F0FB"/>
+      <stop offset="50%" stop-color="#FFEBF3"/>
+      <stop offset="100%" stop-color="#FFF3E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="130" r="50" fill="#E8D9F6"/>
+  <path d="M180 145 L200 120 L215 135 L225 125 L240 145 Z" fill="#9C6BD4" opacity="0.8"/>
+  <circle cx="188" cy="115" r="7" fill="#FF8BA7"/>
+  <text x="200" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" fill="#7956C8" text-anchor="middle">Needify Product</text>
+  <text x="200" y="232" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#9E8BA8" text-anchor="middle">A Little More Joy in Every Need</text>
+</svg>

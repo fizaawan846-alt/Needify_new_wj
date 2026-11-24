@@ -1,0 +1,46 @@
+
+# ==========================================
+# NEEDIFY - GITIGNORE
+# ==========================================
+
+# Private environment files
+.env
+.env.*
+!.env.example
+
+# Database and private API credentials
+/config/database.php
+/config/facebook.php
+/config/gemini.php
+/config/openai.php
+/config/safepay.php
+/config/safepay-functions.php
+
+# Safepay files
+safepay-*.php
+
+# Database exports and backups
+*.sql
+*.sql.zip
+*.bak
+*.backup
+!database/needify.sql
+
+# Dependencies
+/vendor/
+
+# Testing and temporary files
+/ai-test.php
+/test-db.php
+/test.php
+/check-files.php
+/create-admin.php
+
+# Logs and temporary files
+*.log
+/tmp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
